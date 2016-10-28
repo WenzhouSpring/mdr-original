@@ -31,8 +31,10 @@ public class FormPickerActivity extends AppCompatActivity {
 
   @SuppressWarnings("unused")
   @OnClick(R.id.do_pregnancy)
-  protected void doPregnancy() {
-    Log.d("FormPickerActivity", "pressed doPregnancy");
+  protected void doPregnancy(){
+    Intent intent = new Intent();
+  intent.setClass(this, DoPregnancyActivity.class);
+  startActivity(intent);
   }
 
   @SuppressWarnings("unused")
