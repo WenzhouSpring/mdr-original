@@ -28,6 +28,8 @@
     </activity>ick
     <activity android:name=".DoBirthActivity">
     </activity>
+    <activity android:name=".DoAlarmActivity">
+    </activity>
     <activity android:name=".DoRiskActivity">
     </activity>
     <activity android:name=".DoOutcomeActivity">
